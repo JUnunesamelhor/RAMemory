@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RAMemory - Tudo sobre Memória RAM</title>
+  <style>
+    /* Fonte gamer-style */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background-color: #0d0d0d;
+      color: #e0e0e0;
+    }
+
+    /* Cabeçalho */
+    header {
+      background: linear-gradient(90deg, #00ff99, #00ccff);
+      color: #0d0d0d;
+      padding: 30px;
+      text-align: center;
+      text-shadow: 0 0 8px #000;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+    header p {
+      margin: 5px 0 0;
+      font-style: italic;
+      font-size: 1.2em;
+    }
+
+    /* Menu gamer */
+    nav {
+      background: #1a1a1a;
+      padding: 15px;
+      text-align: center;
+      border-bottom: 2px solid #00ff99;
+    }
+    nav a {
+      color: #00ffcc;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      text-transform: uppercase;
+      transition: all 0.3s ease;
+    }
+    nav a:hover {
+      color: #fff;
+      text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+    }
+
+    /* Seções */
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 30px;
+      margin-top: 20px;
+      background: #1a1a1a;
+      border-radius: 12px;
+      box-shadow: 0px 0px 15px rgba(0, 255, 204, 0.2);
+      border: 1px solid rgba(0, 255, 204, 0.3);
+    }
+    section h2 {
+      color: #00ffcc;
+      border-left: 5px solid #00ffcc;
+      padding-left: 10px;
+      text-transform: uppercase;
+    }
+    section ul li {
+      margin-bottom: 8px;
+    }
+
+    /* Rodapé */
+    footer {
+      background: #0d0d0d;
+      color: #999;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      border-top: 2px solid #00ff99;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>⚡ RAMemory ⚡</h1>
+    <p>"Sua mesa digital: tudo sobre memória RAM em um só lugar"</p>
+  </header>
+
+  <nav>
+    <a href="#oque-e">O que é RAM?</a>
+    <a href="#faz">O que ela faz?</a>
+    <a href="#funciona">Como funciona?</a>
+    <a href="#importante">Importância</a>
+    <a href="#tipos">Tipos</a>
+    <a href="#vantagens">Vantagens</a>
+    <a href="#desvantagens">Desvantagens</a>
+    <a href="#descobrir">Como descobrir</a>
+    <a href="#volume">Volume</a>
+    <a href="#barramento">Barramento</a>
+    <a href="#impacto">Impacto</a>
+    <a href="#marcas">Marcas</a>
+    <a href="#frequencia">Frequência</a>
+  </nav>
+
+  <section id="oque-e">
+    <h2>O que é RAM?</h2>
+    <p>A memória RAM é como a mesa de trabalho do seu computador ou celular. [...]</p>
+  </section>
+
+  <section id="faz">
+    <h2>O que ela faz?</h2>
+    <p>A RAM guarda temporariamente tudo que você está usando. [...]</p>
+  </section>
+
+  <section id="funciona">
+    <h2>Como funciona?</h2>
+    <p>A RAM é uma memória volátil, o que significa que só funciona enquanto o aparelho está ligado. [...]</p>
+  </section>
+
+  <section id="importante">
+    <h2>Por que ela é importante?</h2>
+    <p>Sem RAM suficiente, o computador ou celular até funciona, mas tudo fica lento e limitado. [...]</p>
+  </section>
+
+  <section id="tipos">
+    <h2>Tipos de RAM</h2>
+    <ul>
+      <li>SDRAM</li>
+      <li>DDR1 → DDR5</li>
+      <li>LPDDR (celulares)</li>
+    </ul>
+  </section>
+
+  <section id="vantagens">
+    <h2>Vantagens</h2>
+    <ul>
+      <li>Velocidade no acesso a dados</li>
+      <li>Multitarefa eficiente</li>
+      <li>Desempenho em jogos e softwares pesados</li>
+    </ul>
+  </section>
+
+  <section id="desvantagens">
+    <h2>Desvantagens</h2>
+    <ul>
+      <li>Memória volátil</li>
+      <li>Preço alto por GB</li>
+      <li>Compatibilidade limitada</li>
+    </ul>
+  </section>
+
+  <section id="descobrir">
+    <h2>Como descobrir quanta RAM tenho?</h2>
+    <p><b>Windows:</b> Ctrl+Shift+Esc → Desempenho<br>
+    <b>Mac:</b> Sobre este Mac<br>
+    <b>Linux:</b> free -h<br>
+    <b>Celulares:</b> Configurações → Sobre o dispositivo</p>
+  </section>
+
+  <section id="volume">
+    <h2>Volume</h2>
+    <p>O volume da RAM representa a quantidade total instalada. [...]</p>
+  </section>
+
+  <section id="barramento">
+    <h2>Barramento</h2>
+    <p>O barramento é como a largura da estrada por onde os dados trafegam. [...]</p>
+  </section>
+
+  <section id="impacto">
+    <h2>Impacto no Desempenho</h2>
+    <p>Mais RAM permite multitarefa e menos travamentos. [...]</p>
+  </section>
+
+  <section id="marcas">
+    <h2>Marcas e Preços</h2>
+    <ul>
+      <li>Corsair</li>
+      <li>Kingston (HyperX/Fury)</li>
+      <li>Crucial</li>
+      <li>G.Skill</li>
+    </ul>
+    <p>DDR4 8GB → R$ 150–250<br>
+    DDR5 16GB → R$ 600–900</p>
+  </section>
+
+  <section id="frequencia">
+    <h2>Frequência</h2>
+    <p>A frequência define a velocidade de operação. DDR4 varia de 2133 a 3600 MHz, DDR5 pode passar de 6000 MHz.</p>
+  </section>
+
+  <footer>
+    <p>⚡ RAMemory © 2025 - Conhecimento gamer sobre memória RAM ⚡</p>
+  </footer>
+</body>
+</html>
